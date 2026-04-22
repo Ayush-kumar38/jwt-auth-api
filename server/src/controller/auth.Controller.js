@@ -1,4 +1,4 @@
-import { comparePassword, hashpassword } from "../../libs/hashPass.js";
+import { comparePassword, hashpassword } from "../libs/hashPass.js";
 import { genToken } from "../../libs/token.js";
 import userModel from "../models/auth.Model.js";
 
