@@ -8,7 +8,7 @@ import authRoute from "./src/routes/auth.routes.js";
 
 const app = express();
 app.use(cors({
-  origin: "http://localhost:3000/reg4S.A", // ⚠️ change this in production
+  origin: "http://localhost:3000/", // ⚠️ change this in production
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
