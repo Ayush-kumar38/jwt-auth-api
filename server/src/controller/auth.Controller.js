@@ -1,5 +1,5 @@
 import { comparePassword, hashpassword } from "../libs/hashPass.js";
-import { genToken } from "../../libs/token.js";
+import { genToken } from "../libs/token.js";
 import userModel from "../models/auth.Model.js";
 
 export const registerUser = async (req, res) => {

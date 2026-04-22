@@ -1,5 +1,5 @@
 import jwt from "jsonwebtoken";
-import env from "../src/config/env.js";
+import env from "../config/env.js";
 
 export const genToken = async (data) =>{
     return jwt.sign(data,env.JWT_SECRET,{
